@@ -1,0 +1,29 @@
+
+  {
+    slug: "transit-case",
+    name: "Transit Case",
+    category: "Enclosures & Power",
+    description: "Rugged transit cases with shock-absorbing interiors and secure latching for safe field transport.",
+    details: [
+      "Rugged transit cases.",
+      "Shock-absorbing interiors.",
+      "Secure latching for field transport."
+    ],
+    specs: ["Rugged case", "Shock absorption", "Secure latching"],
+    image: "/products/transit-case.png"
+  },
+
+
+ {
+    slug: "tec-unit",
+    name: "Thermoelectric Cooler (TEC Unit)",
+    category: "Compute Platforms",
+    description: "Military-grade thermoelectric cooling with low EM footprint across wide temperature ranges.",
+    details: [
+      "Military-grade thermoelectric cooling.",
+      "Low EM footprint.",
+      "Wide temperature range capability."
+    ],
+    specs: ["Thermoelectric cooling", "Low EM footprint", "Wide temperature range"],
+    image: "/products/tec-unit.png"
+  },

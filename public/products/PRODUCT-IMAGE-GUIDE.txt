@@ -1,0 +1,2 @@
+Replace the product image slots with your own files using the exact filenames listed in README.md.
+Example: public/products/rugged-chassis.jpg
