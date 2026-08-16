@@ -16,7 +16,7 @@ export default function Products() {
       </section>
 
       <section className="container-v py-20">
-        <Reveal><SectionHeading eyebrow="Product Portfolio" title="Add your product photography once — the cards update automatically." description="Each product already has its own image slot. Drop the matching image into public/products/ using the filename shown in the asset guide." /></Reveal>
+        <Reveal><SectionHeading eyebrow="Product Portfolio" /></Reveal>
 
         <div className="mt-8 flex flex-wrap gap-2">
           {categories.map((c) => <span key={c} className="rounded-full border border-slate-200 bg-white px-4 py-2 text-xs font-bold text-slate-600">{c}</span>)}
