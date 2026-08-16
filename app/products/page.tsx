@@ -16,7 +16,7 @@ export default function Products() {
       </section>
 
       <section className="container-v py-20">
-        <Reveal><SectionHeading eyebrow="Product Portfolio" /></Reveal>
+        <Reveal><SectionHeading eyebrow="Product Portfolio" title="Built to Perform. Built to Last." description="Purpose-built products delivering reliability, ruggedness and performance in demanding operating environments." /></Reveal>
 
         <div className="mt-8 flex flex-wrap gap-2">
           {categories.map((c) => <span key={c} className="rounded-full border border-slate-200 bg-white px-4 py-2 text-xs font-bold text-slate-600">{c}</span>)}
