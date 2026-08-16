@@ -85,7 +85,7 @@ export const products: Product[] = [
       "Easy-access maintenance for mission-critical systems."
     ],
     specs: ["High reliability", "Cable management", "Service access"],
-    image: "/products/racks-subracks.png"
+    image: "/products/Racks-subracks.png"
   },
   {
     slug: "pdu-power",
