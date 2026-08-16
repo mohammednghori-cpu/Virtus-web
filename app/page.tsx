@@ -108,7 +108,7 @@ export default function Home() {
 
       <section className="container-v py-20" id="search-relevant-services"><div className="max-w-4xl"><span className="eyebrow">Defence & Aerospace Engineering</span><h2 className="section-title">Defence electronics, embedded computing, rugged systems and engineering services </h2><p className="mt-5 text-base leading-8 text-slate-600 sm:text-lg">Virtus Defence & Aerospace provides PCB and backplane design, FPGA and hardware design, mechanical design, product and system engineering, machining and sheet-metal fabrication, build-to-print assembly, system integration, wire harness and cable assemblies, prototype development, production, thermal and structural analysis, testing and qualification, together with embedded computing, rugged chassis, LRUs, displays, consoles, networking, thermal and IT solutions.</p></div></section><section className="bg-white py-24">
         <div className="container-v">
-          <Reveal><SectionHeading eyebrow="Who We Serve" title="Supporting India's strategic and defence ecosystem." description="Use approved official marks and brand assets before final publication." /></Reveal>
+          <Reveal><SectionHeading eyebrow="Who We Serve" title="Supporting India's strategic and defence ecosystem." description="" /></Reveal>
           <ClientLogos />
         </div>
       </section>
