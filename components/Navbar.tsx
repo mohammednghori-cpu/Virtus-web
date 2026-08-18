@@ -20,7 +20,7 @@ export function Navbar() {
     <header className="sticky top-0 z-50 border-b border-slate-200/70 bg-white/90 backdrop-blur-xl">
       <div className="container-v flex h-20 items-center justify-between">
         <Link href="/" onClick={() => setOpen(false)} className="flex items-center">
-          <Image src="/virtus-logo.png" alt="Virtus Defence & Aerospace" width={270} height={160} className="h-14 w-auto object-contain" priority />
+          <Image src="/virtus-logo.png" alt="Virtus Defence & Aerospace" width={500} height={320} className="h-14 w-auto object-contain" priority />
         </Link>
 
         <nav className="hidden items-center gap-7 lg:flex">
