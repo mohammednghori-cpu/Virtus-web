@@ -41,6 +41,14 @@ const clients = [
     name: "SAMEER",
     logo: "/clients/8.png",
   },
+{
+    name: "ECIL",
+    logo: "/clients/11.png",
+  },
+{
+    name: "MAZGON DOCK SHIPBUILDERS",
+    logo: "/clients/12.png",
+  },
 
 ];
 
