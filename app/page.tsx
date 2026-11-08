@@ -4,7 +4,7 @@ import { ArrowRight, ArrowUpRight, Cpu, Factory, ShieldCheck, Radar, CircuitBoar
 import { Reveal } from "@/components/Reveal";
 import { SectionHeading } from "@/components/SectionHeading";
 import { ClientLogos } from "@/components/ClientLogos";
-import { import { products } from "@/data/products";
+import { products } from "@/data/products";
 import { productCategories } from "@/data/site";
 
 const capabilities = [
