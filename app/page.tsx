@@ -1,11 +1,10 @@
 import Link from "next/link";
 import Image from "next/image";
-import { ArrowRight, ArrowUpRight, Cpu, Factory, ShieldCheck, Radar, Boxes, CircuitBoard, MoveUpRight } from "lucide-react";
+import { ArrowRight, ArrowUpRight, Cpu, Factory, ShieldCheck, Radar, CircuitBoard, MoveUpRight } from "lucide-react";
 import { Reveal } from "@/components/Reveal";
 import { SectionHeading } from "@/components/SectionHeading";
 import { ClientLogos } from "@/components/ClientLogos";
-import { CapabilityCard } from "@/components/CapabilityCard";
-import { products } from "@/data/products";
+import { import { products } from "@/data/products";
 import { productCategories } from "@/data/site";
 
 const capabilities = [
@@ -26,7 +25,7 @@ export default function Home() {
             <Reveal>
               <div className="mb-7 flex items-center gap-3 text-[10px] font-bold uppercase tracking-[.3em] text-[#d8bd91]"><span className="h-px w-10 bg-[#c9a56a]"/>Defence · Aerospace · Mission Systems</div>
               <h1 className="max-w-5xl text-[clamp(3.3rem,8vw,7.7rem)] font-semibold leading-[.91] tracking-[-.065em]">Engineering for<br/><span className="text-[#d6bd95]">the moments</span><br/>that matter.</h1>
-              <p className="mt-8 max-w-2xl text-base leading-8 text-white/72 sm:text-lg">Indigenous design, engineering and manufacturing for mission-critical electronics, embedded computing and rugged systems.</p>
+              <p className="mt-8 max-w-2xl text-base leading-8 text-white/70 sm:text-lg">Indigenous design, engineering and manufacturing for mission-critical electronics, embedded computing and rugged systems.</p>
               <div className="mt-9 flex flex-wrap gap-3">
                 <Link href="/products" className="btn-gold">Explore capabilities <ArrowUpRight className="ml-2 h-4 w-4"/></Link>
                 <Link href="/contact" className="btn-secondary border-white/45 text-white hover:border-white">Discuss a requirement <ArrowRight className="ml-2 h-4 w-4"/></Link>
