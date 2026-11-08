@@ -47,3 +47,22 @@ a { text-underline-offset:4px; }
 @keyframes slow-pan { 0%,100% { transform:scale(1); } 50% { transform:scale(1.04); } }
 .hero-photo { animation:slow-pan 24s ease-in-out infinite; }
 @media (prefers-reduced-motion: reduce) { html{scroll-behavior:auto} .hero-photo{animation:none} *{transition-duration:.01ms!important} }
+
+/* Shared page treatments */
+.hero-mesh {
+  background:
+    radial-gradient(circle at 82% 18%, rgba(102,160,179,.20), transparent 28%),
+    radial-gradient(circle at 12% 78%, rgba(201,165,106,.10), transparent 24%),
+    linear-gradient(rgba(255,255,255,.045) 1px, transparent 1px),
+    linear-gradient(90deg, rgba(255,255,255,.045) 1px, transparent 1px);
+  background-size:auto,auto,44px 44px,44px 44px;
+}
+.product-placeholder {
+  background-image:linear-gradient(rgba(255,255,255,.06) 1px,transparent 1px),linear-gradient(90deg,rgba(255,255,255,.06) 1px,transparent 1px);
+  background-size:24px 24px;
+}
+.glass-card { border:1px solid rgba(11,26,40,.10); background:#fff; box-shadow:0 10px 35px rgba(7,20,32,.045); }
+.bg-navy { background-color:#081522; }
+.bg-navy h1 { font-weight:600; letter-spacing:-.055em; line-height:1.02; }
+.bg-navy .eyebrow { color:#c9a56a; }
+.bg-navy p { color:rgba(255,255,255,.68); }
