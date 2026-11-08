@@ -8,15 +8,15 @@ const config: Config = {
   theme: {
     extend: {
       colors: {
-        navy: "#07182E",
-        ink: "#0B1F36",
-        steel: "#5F7187",
-        cyan: "#2E8BC8",
-        ice: "#EEF5FA",
-        gold: "#F1A93B"
+        navy: "#081522",
+        ink: "#101D29",
+        steel: "#71808A",
+        cyan: "#559DB5",
+        ice: "#EEF1F0",
+        gold: "#C9A56A"
       },
       boxShadow: {
-        glow: "0 0 50px rgba(46,139,200,.18)"
+        glow: "0 0 50px rgba(85,157,181,.18)"
       }
     }
   },
